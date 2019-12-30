@@ -1,0 +1,37 @@
+{
+  "description": "",
+  "name": "temp and humidity device",
+  "adminState": "UNLOCKED",
+  "operatingState": "ENABLED",
+  "protocols": {
+    "modbus-rtu": {
+      "Address": "/dev/ttyUSB0",
+      "BaudRate": "9600",
+      "DataBits": "8",
+      "Parity": "N",
+      "StopBits": "1",
+      "UnitID": "1"
+    }
+  },
+  "labels": [
+    "temp",
+    "Modbus RTU"
+  ],
+  "service": {
+    "name": "edgex-device-modbus",
+    "adminState": "UNLOCKED"
+  },
+  "profile": {
+    "name": "temperature and humidity sensor profile"
+  },
+  "autoEvents":[
+    {
+      "resource": "Humidity",
+      "frequency": "3s"
+    },
+    {
+      "resource": "TemperatureDeg",
+      "frequency": "3s"
+    }
+  ]
+}
