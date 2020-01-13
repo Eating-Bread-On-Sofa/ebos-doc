@@ -1,7 +1,8 @@
 # install golang
-`sudo apt update
-
-sudo apt install golang`
+`
+sudo apt update
+sudo apt install golang
+`
 # install JDK
 `sudo apt install openjdk`
 
