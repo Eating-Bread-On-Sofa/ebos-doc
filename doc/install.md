@@ -27,7 +27,7 @@ bin/kafka-server-start.sh config/server.properties
 enter where the tar is   
 `tar -xzvf edgex-***`  
 
-then u will get a folder name goPath  
+then u will get a folder named goPath  
 add this folder to gopath  
 `sudo vi /etc/profile`  
 
