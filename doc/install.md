@@ -3,8 +3,11 @@
 sudo apt update
 sudo apt install golang
 ```
-# install JDK
-`sudo apt install openjdk`
+# install JDK & maven (if u don't use idea)
+```
+sudo apt install openjdk
+sudo apt install maven
+```
 
 # deploy MQ
 use tar to unzip
