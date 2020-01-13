@@ -49,3 +49,17 @@ use install script for 0MQ to install zeromq, location is not required.
 # clone project
 git clone
 
+# run edgex
+```
+cd {where goPath is}
+```
+## run edgex-go
+```
+cd src/edgex-go
+make run
+```
+## run device-modbus-go
+```
+cd src/device-modbus-go/bin
+sudo bash edgex-launch.sh
+```
