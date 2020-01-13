@@ -19,7 +19,7 @@ sudo bash activemq start
 STOP  
 `sudo bash activemq stop`
 
-vist <http://localhost:8161> to check status
+visit <http://localhost:8161> to check status
 ## Kafka
 ```
 cd {where}  
