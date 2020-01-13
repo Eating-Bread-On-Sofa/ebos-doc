@@ -3,10 +3,9 @@
 sudo apt update
 sudo apt install golang
 ```
-# install JDK & maven (if u don't use idea)
+# install JDK
 ```
 sudo apt install openjdk
-sudo apt install maven
 ```
 
 # deploy MQ
@@ -18,7 +17,8 @@ cd {where}/bin
 sudo bash activemq start
 ```  
 STOP  
-`sudo bash activemq stop`  
+`sudo bash activemq stop`
+vist <localhost:8161> to check status
 ## Kafka
 ```
 cd {where}  
