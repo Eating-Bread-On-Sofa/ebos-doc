@@ -5,7 +5,7 @@ sudo apt install golang
 ```
 # install JDK
 ```
-sudo apt install openjdk
+sudo apt install openjdk-8-jdk
 ```
 
 # deploy MQ
@@ -18,7 +18,8 @@ sudo bash activemq start
 ```  
 STOP  
 `sudo bash activemq stop`
-vist <localhost:8161> to check status
+
+vist <http://localhost:8161> to check status
 ## Kafka
 ```
 cd {where}  
