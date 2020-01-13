@@ -34,8 +34,8 @@ add this folder to gopath
 add a new line in the end of this file  
 `export GOPATH:{where ur goPath is}`  
 
-use install script for 0MQ to install zeromq, location is not required.
-https://github.com/Eating-Bread-On-Sofa/ebos-doc/blob/master/doc/install%20script%20for%200MQ
+use install script for 0MQ to install zeromq, location is not required.  
+<https://github.com/Eating-Bread-On-Sofa/ebos-doc/blob/master/doc/install%20script%20for%200MQ>
 
 # install git
 `sudo apt install git`
