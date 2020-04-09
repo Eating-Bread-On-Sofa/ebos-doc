@@ -253,7 +253,6 @@ POST TO http://localhost:48071/api/v1/registration
 "user":"user",       （给MQ发送消息的用户、密码）
 "password":"user",
 "topic":"Tempe&Humidity"  （指定topic，所有监听此topic的订阅者均可接收到与topic相符的消息，也可粗暴的理解为队列名称）
-},
 "format":"JSON",
 "filter":{
 "deviceIdentifiers":["temp and humidity device"]（选择要导出什么设备的数据）
