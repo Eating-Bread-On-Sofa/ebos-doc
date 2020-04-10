@@ -243,22 +243,23 @@ POST TO http://localhost:48071/api/v1/registration
 
 ```json
 {
-"name":"ExportTest",	（导出代理名称，唯一，不重复）
-"addressable":{        （MQ服务器信息）
-"name":"mqtt", 
-"protocol":"tcp",
-"address":"172.17.0.1",  （这里的IP是docker中看主机的IP，如果不是本地运行MQ就用真实IP）
-"port":1883,     （端口号，与协议相关，MQTT协议默认用1883）
-"publisher":"EdgeXExportPublisher1", 
-"user":"user",       （给MQ发送消息的用户、密码）
-"password":"user",
-"topic":"Tempe&Humidity"  （指定topic，所有监听此topic的订阅者均可接收到与topic相符的消息，也可粗暴的理解为队列名称）
+"name":"ExportTest",	//导出代理名称，唯一，不重复
+"addressable":{        //MQ服务器信息
+    "name":"mqtt", 
+    "protocol":"tcp",
+    "address":"172.17.0.1",  //这里的IP是docker中看主机的IP，如果不是本地运行MQ就用真实IP
+    "port":1883,     //端口号，与协议相关，MQTT协议默认用1883
+    "publisher":"EdgeXExportPublisher1", 
+    "user":"user",       //给MQ发送消息的用户、密码
+    "password":"user",
+    "topic":"Tempe&Humidity" //指定topic，所有监听此topic的订阅者均可接收到与topic相符的消息，也可粗暴的理解为队列名称
+},  
 "format":"JSON",
 "filter":{
-"deviceIdentifiers":["temp and humidity device"]（选择要导出什么设备的数据）
+"deviceIdentifiers":["temp and humidity device"]//选择要导出什么设备的数据
 },
 "enable":true,
-"destination":"MQTT_TOPIC" （指定协议类型，不能随便写）
+"destination":"MQTT_TOPIC" //指定协议类型，不能随便写
 }
 ```
 
