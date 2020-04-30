@@ -31,6 +31,7 @@ bin/kafka-server-start.sh config/server.properties
 # deploy edgex
 THERE ARE TWO METHODS  
 1. Native binaries
+
     download this tar.gz  
     <https://github.com/Eating-Bread-On-Sofa/ebos-doc/releases/tag/edgexFiles>
 
