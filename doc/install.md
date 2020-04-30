@@ -9,7 +9,8 @@ sudo apt install openjdk-8-jdk
 ```
 
 # deploy MQ
-use tar to unzip, plz download from official website
+use tar to unzip, plz download from official website  
+u just need to choose one of them. ActiveMq is default in project. U need to modify config if u choose other MQ.
 ## ActiveMQ
 START  
 ```
