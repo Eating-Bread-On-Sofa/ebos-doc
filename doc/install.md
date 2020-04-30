@@ -28,18 +28,26 @@ bin/kafka-server-start.sh config/server.properties
 ```  
 
 # deploy edgex
-enter where the tar is   
-`tar -xzvf edgex-***`  
+there are two methods  
+1. Native binaries
+    download this tar.gz  
+    <https://github.com/Eating-Bread-On-Sofa/ebos-doc/releases/tag/edgexFiles>
 
-then u will get a folder named goPath  
-add this folder to gopath  
-`sudo vi /etc/profile`  
+    enter where the tar.gz is and decompress   
+    `tar -xzvf edgex-***`  
 
-add a new line in the end of this file  
-`export GOPATH:{where ur goPath is}`  
+    then u will get a folder named goPath  
+    add this folder to gopath environment variable  
+    `sudo vi /etc/profile`  
 
-use install script for 0MQ to install zeromq, location is not required.  
-<https://github.com/Eating-Bread-On-Sofa/ebos-doc/blob/master/doc/install%20script%20for%200MQ>
+    add a new line in the end of this file  
+    `export GOPATH:{where ur goPath is}`  
+
+    use install script for 0MQ to install zeromq, location is not required.  
+    <https://github.com/Eating-Bread-On-Sofa/ebos-doc/blob/master/doc/install%20script%20for%200MQ>
+---------------------
+2. Docker  
+u can use docker-compose to simplify this work, and plz see <https://github.com/edgexfoundry/edgex-go>
 
 # install git
 `sudo apt install git`
@@ -48,7 +56,7 @@ use install script for 0MQ to install zeromq, location is not required.
 `sudo apt install mongodb`
 
 # clone project
-git clone
+use git clone
 
 # run edgex
 ```
