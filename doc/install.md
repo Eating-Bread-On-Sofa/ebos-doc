@@ -9,7 +9,7 @@ sudo apt install openjdk-8-jdk
 ```
 
 # deploy MQ
-use tar to unzip
+use tar to unzip, plz download from official website
 ## ActiveMQ
 START  
 ```
@@ -28,7 +28,7 @@ bin/kafka-server-start.sh config/server.properties
 ```  
 
 # deploy edgex
-there are two methods  
+THERE ARE TWO METHODS  
 1. Native binaries
     download this tar.gz  
     <https://github.com/Eating-Bread-On-Sofa/ebos-doc/releases/tag/edgexFiles>
