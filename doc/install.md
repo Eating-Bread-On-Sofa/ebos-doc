@@ -46,15 +46,15 @@ THERE ARE TWO METHODS
 
     use install script for 0MQ to install zeromq, location is not required.  
     <https://github.com/Eating-Bread-On-Sofa/ebos-doc/blob/master/doc/install%20script%20for%200MQ>
+    
+    install mongodb  
+    `sudo apt install mongodb`
 ---------------------
 2. Docker  
 u can use docker-compose to simplify this work, and plz see <https://github.com/edgexfoundry/edgex-go>
 
 # install git
 `sudo apt install git`
-
-# install mongodb
-`sudo apt install mongodb`
 
 # clone project
 use git clone
