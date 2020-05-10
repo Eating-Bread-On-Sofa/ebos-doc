@@ -26,36 +26,80 @@ bin/kafka-server-start.sh config/server.properties
 
 # deploy edgex
 THERE ARE TWO METHODS  
-1. Native binaries
+1. Native binaries or src
 
-    install golang
-    ```
-    sudo apt install golang
-    ```
-
-    download this tar.gz  
-    <https://github.com/Eating-Bread-On-Sofa/ebos-doc/releases/tag/edgexFiles>
-
-    enter where the tar.gz is and decompress   
-    `tar -xzvf edgex-***`  
-
-    then u will get a folder named goPath  
-    add this folder to gopath environment variable  
-    `sudo vi /etc/profile`  
-
-    add a new line in the end of this file  
-    `export GOPATH:{where ur goPath is}`  
-
+    Prerequisites
+    
     use install script for 0MQ to install zeromq, location is not required.  
     <https://github.com/Eating-Bread-On-Sofa/ebos-doc/blob/master/doc/install%20script%20for%200MQ>
     
     install mongodb  
     `sudo apt install mongodb`
+    
+    download tar.gz  
+    <https://github.com/Eating-Bread-On-Sofa/ebos-doc/releases/tag/edgexFiles> 
 ---------------------
 2. Docker  
 u can use docker-compose to simplify this work, and plz see <https://github.com/edgexfoundry/edgex-go>
 
 docker is needed and docker compose is also recommanded
+
+# run edgex
+## 1. use binary 
+(DO NOTIFY ME if u got problems)
+
+use edgex-binary.tar.gz
+
+### run edgex-go
+```
+cd edgex-go/bin
+bash edgex-launch.sh
+```
+### run device-modbus-go
+```
+cd device-modbus-go/bin
+sudo bash edgex-launch.sh
+```
+
+## 2. use src 
+(if u have problems running with bin)
+
+   use edgex-modbus-int8-version.tar.gz
+
+   install golang
+   `sudo apt install golang`
+    
+   download this tar.gz  
+    <https://github.com/Eating-Bread-On-Sofa/ebos-doc/releases/tag/edgexFiles>    
+    
+   enter where the tar.gz is and decompress   
+   `tar -xzvf edgex-***`      
+   then u will get a folder named goPath  
+   add this folder to gopath environment variable  
+   `sudo vi /etc/profile`      
+   add a new line in the end of this file  
+   `export GOPATH:{where ur goPath is}`  
+
+```
+cd {where goPath is}/src
+```
+### run edgex-go
+```
+cd edgex-go
+make run
+```
+### run device-modbus-go
+```
+cd device-modbus-go/bin
+sudo bash edgex-launch.sh
+```
+
+## 3. use docker compose
+```
+cd {where docker compose.yml}
+sudo docker-compose up -d
+```
+if u find error when you start docker, plz use `sudo docker-compose up` instead and find logs
 
 # install git
 `sudo apt install git`
@@ -63,28 +107,6 @@ docker is needed and docker compose is also recommanded
 # clone project
 use git clone
 
-# run edgex
-## 1. use src
-```
-cd {where goPath is}
-```
-### run edgex-go
-```
-cd src/edgex-go
-make run
-```
-### run device-modbus-go
-```
-cd src/device-modbus-go/bin
-sudo bash edgex-launch.sh
-```
-
-## 2. use docker compose
-```
-cd {where docker compose.yml}
-sudo docker-compose up -d
-```
-if u find error when you start docker, plz use `sudo docker-compose up` instead and find logs
 # run micro service
 ## use source code  
 make sure you are in the right branch. if not, git checkout  
