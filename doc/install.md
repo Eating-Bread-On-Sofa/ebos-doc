@@ -58,7 +58,7 @@ use install script for 0MQ to install zeromq, location is not required.
 install mongodb  
 ```sudo apt install mongodb```
 
-install golang
+install golang    
 ```sudo apt install golang```
     
 download edgex-modbus-int8-version.tar.gz     
