@@ -25,17 +25,17 @@ bin/kafka-server-start.sh config/server.properties
 ```  
 
 # run edgex
-choose one of them
+## choose one of them
 ## 1. use binary 
 (DO NOTIFY ME if u got problems)
 
-use install script for 0MQ to install zeromq, location is not required.  
+use install script for 0MQ to install zeromq, location is not required.   
 <https://github.com/Eating-Bread-On-Sofa/ebos-doc/blob/master/doc/install%20script%20for%200MQ>
     
 install mongodb  
 `sudo apt install mongodb`
     
-download edgex-binary.tar.gz and decompress
+download edgex-binary.tar.gz and decompress    
 <https://github.com/Eating-Bread-On-Sofa/ebos-doc/releases/tag/edgexFiles> 
 
 ### run edgex-go
@@ -52,7 +52,7 @@ sudo bash edgex-launch.sh
 ## 2. use src 
 (if u have problems running with bin)
 
-use install script for 0MQ to install zeromq, location is not required.  
+use install script for 0MQ to install zeromq, location is not required.     
 <https://github.com/Eating-Bread-On-Sofa/ebos-doc/blob/master/doc/install%20script%20for%200MQ>
     
 install mongodb  
@@ -60,7 +60,7 @@ install mongodb
 install golang
 ```sudo apt install golang```
     
-download edgex-modbus-int8-version.tar.gz
+download edgex-modbus-int8-version.tar.gz     
 <https://github.com/Eating-Bread-On-Sofa/ebos-doc/releases/tag/edgexFiles> 
 
 
@@ -88,7 +88,8 @@ sudo bash edgex-launch.sh
 ## 3. use docker compose
 u can use docker-compose to simplify this work, and plz see <https://github.com/edgexfoundry/edgex-go>
 
-docker is needed and docker compose is also recommanded, you can also get docker-compose.yml here <https://github.com/Eating-Bread-On-Sofa/ebos-doc/tree/master/dockerComposeFiles>
+docker is needed and docker compose is also recommanded, you can also get docker-compose.yml here    
+<https://github.com/Eating-Bread-On-Sofa/ebos-doc/tree/master/dockerComposeFiles>
 ```
 cd {where docker compose.yml}
 sudo docker-compose up -d
