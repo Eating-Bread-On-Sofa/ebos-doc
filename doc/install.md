@@ -1,10 +1,6 @@
-# install golang
-```
-sudo apt update
-sudo apt install golang
-```
 # install JDK
 ```
+sudo apt update
 sudo apt install openjdk-8-jdk
 ```
 
@@ -31,6 +27,11 @@ bin/kafka-server-start.sh config/server.properties
 # deploy edgex
 THERE ARE TWO METHODS  
 1. Native binaries
+
+    install golang
+    ```
+    sudo apt install golang
+    ```
 
     download this tar.gz  
     <https://github.com/Eating-Bread-On-Sofa/ebos-doc/releases/tag/edgexFiles>
