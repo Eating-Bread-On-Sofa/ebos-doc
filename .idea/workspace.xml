@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7137c6c3-1c11-4fe5-9cc6-6b28a344a6d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/日志使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/日志使用.md" afterDir="false" />
-    </list>
+    <list default="true" id="7137c6c3-1c11-4fe5-9cc6-6b28a344a6d4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,11 +35,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ebos-rule" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -67,22 +65,38 @@
       <workItem from="1586523166286" duration="70000" />
       <workItem from="1586523278285" duration="1124000" />
       <workItem from="1591490032661" duration="1411000" />
-      <workItem from="1591933870268" duration="1901000" />
+      <workItem from="1591933870268" duration="2177000" />
     </task>
+    <task id="LOCAL-00001" summary="log update">
+      <created>1591938821036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591938821036</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="log update" />
+    <option name="LAST_COMMIT_MESSAGE" value="log update" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="385" y="10" key="CommitChangelistDialog2" timestamp="1591938819775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="385" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591938819775" />
     <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1591933931623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591933931623" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1591938698601">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1591938825177">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591938698601" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591938825177" />
     <state x="564" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591938640802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
