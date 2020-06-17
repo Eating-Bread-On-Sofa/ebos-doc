@@ -24,8 +24,7 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 bin/kafka-server-start.sh config/server.properties
 ```  
 
-# run edgex
-## choose one of them
+# run edgex  (choose one of them)
 ## 1. use binary 
 (DO NOTIFY ME if u got problems)
 
