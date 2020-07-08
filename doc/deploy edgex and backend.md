@@ -97,9 +97,12 @@ if u find error when you start docker, plz use `sudo docker-compose up` instead 
 # install git
 `sudo apt install git`
 
-# clone project
+# clone project or download
 use git clone
 
+or
+
+download jar from release in each repo
 # run micro service
 ## use source code  
 make sure you are in the right branch. if not, git checkout  
@@ -109,4 +112,4 @@ START! cd to where directory is and `mvn sping-boot:run`
 
 ## use JAR
 java -jar xxx.jar  
-see releases in each project
+see releases in each repo
