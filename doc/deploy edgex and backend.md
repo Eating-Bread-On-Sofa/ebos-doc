@@ -108,4 +108,5 @@ install maven `sudo apt install maven`
 START! cd to where directory is and `mvn sping-boot:run`
 
 ## use JAR
+java -jar xxx.jar  
 see releases in each project
