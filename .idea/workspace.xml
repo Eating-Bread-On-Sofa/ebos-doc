@@ -4,8 +4,8 @@
     <list default="true" id="7137c6c3-1c11-4fe5-9cc6-6b28a344a6d4" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/doc/将程序做成系统服务实现开机自启.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/日志使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/日志使用.md" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +28,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
@@ -136,15 +137,25 @@
       </pane>
     </panes>
   </component>
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1YVLWUFOUxvwAOJsmmErpH53It4" />
+>>>>>>> 054e5ff76a0a3a04e240b57cf260e598b8837397
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -152,18 +163,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IdeaProjects\ebos-doc\doc\日志使用.assets" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -179,11 +178,44 @@
       <workItem from="1583022848020" duration="1345000" />
       <workItem from="1583224308134" duration="3787000" />
       <workItem from="1586523166286" duration="70000" />
+<<<<<<< HEAD
       <workItem from="1586523278285" duration="2508000" />
       <workItem from="1595165504642" duration="2360000" />
+=======
+      <workItem from="1586523278285" duration="1124000" />
+      <workItem from="1591490032661" duration="1411000" />
+      <workItem from="1591933870268" duration="2177000" />
+      <workItem from="1591939028517" duration="87000" />
+      <workItem from="1592022133095" duration="1674000" />
+      <workItem from="1592027539995" duration="401000" />
+      <workItem from="1592038101175" duration="1693000" />
     </task>
+    <task id="LOCAL-00001" summary="log update">
+      <created>1591938821036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591938821036</updated>
+    </task>
+    <task id="LOCAL-00002" summary="log update">
+      <created>1591939100352</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591939100352</updated>
+    </task>
+    <task id="LOCAL-00003" summary="log update">
+      <created>1592023766515</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592023766515</updated>
+>>>>>>> 054e5ff76a0a3a04e240b57cf260e598b8837397
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="5320000" />
   </component>
@@ -221,13 +253,20 @@
       <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
+=======
+>>>>>>> 054e5ff76a0a3a04e240b57cf260e598b8837397
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="log update" />
+    <option name="LAST_COMMIT_MESSAGE" value="log update" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1583224308476">
+    <state x="385" y="10" key="CommitChangelistDialog2" timestamp="1592023765461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+<<<<<<< HEAD
     <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583224308476" />
   </component>
   <component name="editorHistoryManager">
@@ -281,5 +320,20 @@
         </state>
       </provider>
     </entry>
+=======
+    <state x="385" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592023765461" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1591933931623">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591933931623" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1592023772217">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592023772217" />
+    <state x="564" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591938640802">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="564" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1591938640802" />
+>>>>>>> 054e5ff76a0a3a04e240b57cf260e598b8837397
   </component>
 </project>
