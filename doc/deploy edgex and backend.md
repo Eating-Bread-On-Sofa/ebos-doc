@@ -35,7 +35,9 @@ install mongodb
 `sudo apt install mongodb`
     
 download edgex-binary.tar.gz and decompress    
-<https://github.com/Eating-Bread-On-Sofa/ebos-doc/releases/tag/edgexFiles> 
+~~https://github.com/Eating-Bread-On-Sofa/ebos-doc/releases/tag/edgexFiles~~
+
+<https://github.com/Eating-Bread-On-Sofa/ebos-doc/releases/download/v1.0/edgex.tar.gz>
 
 ### run edgex-go
 ```
@@ -47,8 +49,13 @@ bash edgex-launch.sh
 cd device-modbus-go/bin
 sudo bash edgex-launch.sh
 ```
+### run device-random
+```
+cd device-random/cmd
+sudo ./device-random
+```
 ----------------------------
-## 2. use src 
+## ~~2. use src~~
 (if u have problems running with bin)
 
 use install script for 0MQ to install zeromq, location is not required.     
