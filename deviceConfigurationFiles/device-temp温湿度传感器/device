@@ -6,7 +6,7 @@
   "protocols": {
     "modbus-rtu": {
       "Address": "/dev/ttyUSB0",
-      "BaudRate": "9600",
+      "BaudRate": "4800",
       "DataBits": "8",
       "Parity": "N",
       "StopBits": "1",
